@@ -9,6 +9,7 @@ public class Task1Q10_AddDig
 	{
 		System.out.println("Enter the Number:");
 		//Getting input value
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		//initializing variable
